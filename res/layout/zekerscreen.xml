@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/clouds_8">
+  
+  <TextView android:id="@+id/title"
+  			android:layout_width="match_parent"
+  			android:layout_height="100dip"
+  			android:gravity="center_horizontal|center_vertical"
+  			android:textSize="25dip"
+  			android:textColor="@color/color_black"
+  			android:background="@drawable/ic_button"
+  			/>
+  <ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:scrollbars="vertical|horizontal">	
+  <TextView android:id="@+id/content" 
+  		android:layout_width="match_parent"
+  		android:layout_height="fill_parent"
+  		android:scrollbars="horizontal|vertical"
+  		android:textColor="@color/color_blue"
+  		android:textSize="20dip"
+  		android:layout_margin="5dip"
+  />
+  
+ </ScrollView>
+    
+</LinearLayout>
