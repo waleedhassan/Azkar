@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ZekerScreen extends Activity {
+public class ZekerScreen extends Activity { 
     TextView t ;
 	TextView v ;
 	AzkarHelper help ;

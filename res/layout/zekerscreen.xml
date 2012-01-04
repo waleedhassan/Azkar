@@ -2,17 +2,17 @@
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:orientation="vertical"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:background="@drawable/clouds_8">
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/ic_background">
   
   <TextView android:id="@+id/title"
   			android:layout_width="match_parent"
-  			android:layout_height="100dip"
-  			android:gravity="center_horizontal|center_vertical"
-  			android:textSize="25dip"
-  			android:textColor="@color/color_black"
-  			android:background="@drawable/ic_button"
+  			android:layout_height="70dip" 
+  			android:gravity="center_horizontal"
+  			android:layout_marginTop="10dip"
+  			android:textSize="25dip"  
+  			android:textColor="@color/color_black"  			 
   			/>
   <ScrollView android:layout_width="fill_parent"
 		android:layout_height="fill_parent" android:scrollbars="vertical|horizontal">	
@@ -20,11 +20,15 @@
   		android:layout_width="match_parent"
   		android:layout_height="fill_parent"
   		android:scrollbars="horizontal|vertical"
-  		android:textColor="@color/color_blue"
+  		android:textColor="@color/color_black"
   		android:textSize="20dip"
   		android:layout_margin="5dip"
-  />
+  		android:layout_marginLeft="15dip"
+  		android:layout_marginRight="15dip"
+  		android:layout_alignParentBottom="true"
+  		android:gravity="right|center" 
+  />      
   
- </ScrollView>
+ </ScrollView>    
     
 </LinearLayout>

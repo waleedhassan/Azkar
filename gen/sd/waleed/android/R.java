@@ -16,19 +16,14 @@ public final class R {
         public static final int color_white=0x7f050000;
     }
     public static final class drawable {
-        public static final int clouds_8=0x7f020000;
-        public static final int ic_backgroun=0x7f020001;
-        public static final int ic_backgroun2=0x7f020002;
-        public static final int ic_button=0x7f020003;
-        public static final int ic_button_pressed=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int ic_title=0x7f020006;
+        public static final int ic_background=0x7f020000;
+        public static final int ic_button=0x7f020001;
+        public static final int ic_button_pressed=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
     }
     public static final class id {
-        public static final int address=0x7f060086;
-        public static final int content=0x7f060087;
-        public static final int icon=0x7f060084;
-        public static final int title=0x7f060085;
+        public static final int content=0x7f060085;
+        public static final int title=0x7f060084;
         public static final int zkr_adoo=0x7f060023;
         public static final int zkr_afterahl=0x7f060050;
         public static final int zkr_afterdafn=0x7f06003a;
@@ -165,10 +160,10 @@ public final class R {
     public static final class layout {
         public static final int button_backgrnd=0x7f030000;
         public static final int main=0x7f030001;
-        public static final int row=0x7f030002;
-        public static final int zekerscreen=0x7f030003;
+        public static final int zekerscreen=0x7f030002;
     }
     public static final class string {
+        public static final int Title=0x7f040085;
         public static final int adoo=0x7f040024;
         public static final int afterahl=0x7f040051;
         public static final int afterdafn=0x7f04003b;
