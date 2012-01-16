@@ -56,6 +56,10 @@ public class AzkarHelper extends SQLiteOpenHelper {
 		return getReadableDatabase().rawQuery("SELECT _id,zeker,category FROM "+ALZEKER_TABLE+" WHERE category=?", args);
 	}
 	
+	public String getZekr(Cursor c){
+		return c.getString(1);
+	}
+	
 	private boolean checkDataBase(){
 	    
         SQLiteDatabase checkDB = null;

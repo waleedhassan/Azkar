@@ -14,21 +14,10 @@
   			android:textSize="25dip"  
   			android:textColor="@color/color_black"  			 
   			/>
-  <ScrollView android:layout_width="fill_parent"
-		android:layout_height="fill_parent" android:scrollbars="vertical|horizontal">	
-  <TextView android:id="@+id/content" 
-  		android:layout_width="match_parent"
-  		android:layout_height="fill_parent"
-  		android:scrollbars="horizontal|vertical"
-  		android:textColor="@color/color_black"
-  		android:textSize="20dip"
-  		android:layout_margin="5dip"
-  		android:layout_marginLeft="15dip"
-  		android:layout_marginRight="15dip"
-  		android:layout_alignParentBottom="true"
-  		android:gravity="right|center" 
-  />      
-  
- </ScrollView>    
+  <ListView android:id="@android:id/list"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"  			  				
+  			>
+  </ListView>  
     
 </LinearLayout>
