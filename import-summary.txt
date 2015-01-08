@@ -1,0 +1,82 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* README
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\assets\
+* app\src\main\assets\azkardb.db
+* app\src\main\java\
+* app\src\main\java\sd\
+* app\src\main\java\sd\waleed\
+* app\src\main\java\sd\waleed\android\
+* app\src\main\java\sd\waleed\android\AzkarActivity.java
+* app\src\main\java\sd\waleed\android\AzkarHelper.java
+* app\src\main\java\sd\waleed\android\ZekerScreen.java
+* app\src\main\res\
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\ic_button.9.png
+* app\src\main\res\drawable\ic_button_pressed.9.png
+* app\src\main\res\drawable\ic_launcher.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\button_backgrnd.xml
+* app\src\main\res\layout\main.xml
+* app\src\main\res\layout\zekerscreen.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* build.gradle
+* default.properties
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard.cfg
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

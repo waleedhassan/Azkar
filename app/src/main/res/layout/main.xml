@@ -1,0 +1,2201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff14b9c2"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center_horizontal"
+                android:text="@string/Title"
+                android:textColor="@color/color_black"
+                android:textSize="25dip" />
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical|horizontal">
+
+        <TableLayout
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="3dip"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_estegazfromsleeping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/estegazfromsleeping"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_lebsalthawb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/lebsalthawb"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_newthawb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/newthawb"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_forlebnewthawb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/forlebnewthawb"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_whenputalthawb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/whenputalthawb"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_enteralkhlaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/enteralkhlaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_exitkhlaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/exitkhlaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_beforewdoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/beforewdoo"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_afterwdoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/afterwdoo"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_exithome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/exithome"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_enterhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/enterhome"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_gomosque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/gomosque"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_entermosque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/entermosque"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_exitmosque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/exitmosque"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_azan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/azan"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_opening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/opening"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_rkoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/rkoo"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_fromrkoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/fromrkoo"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_sgood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/sgood"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_betweensgdteen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/betweensgdteen"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_sgoodtelawa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/sgoodtelawa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tshahood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tshahood"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_slaaalaalnaby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/slaaalaalnaby"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_doaaaftertshahood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/doaaaftertshahood"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_aftersalam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/aftersalam"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_estkhara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/estkhara"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_sabahmasaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/sabahmasaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_sleep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/sleep"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_nightly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/nightly"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_fazaainnoom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/fazaainnoom"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_holm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/holm"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_gnootalweter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/gnootalweter"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_salamfromweter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/salamfromweter"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_alham"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/alham"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_karab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/karab"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_adoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/adoo"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_khaffromsoltan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/khaffromsoltan"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_alaaladoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/alaaladoo"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_khafgawman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/khafgawman"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_shakfealeman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/shakfealeman"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_gdaaaldaeen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/gdaaaldaeen"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_waswasainsalaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/waswasainsalaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_estsabamr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/estsabamr"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mnaznab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mnaznab"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tardalshetaan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tardalshetaan"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_malayrdaho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/malayrdaho"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mawlood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mawlood"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_yawazbhealawlad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/yawazbhealawlad"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_eyadatalmreed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/eyadatalmreed"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_fadleydatalmreed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/fadleydatalmreed"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mreedyaesmnhyateh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mreedyaesmnhyateh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mohtader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mohtader"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_moseeba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/moseeba"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_egmadalmaeet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/egmadalmaeet"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_doaamaeetinsalaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/doaamaeetinsalaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_fartinsalat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/fartinsalat"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tazya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tazya"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_maeetingaber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/maeetingaber"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_afterdafn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/afterdafn"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_zeyartalgboor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/zeyartalgboor"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_reeh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/reeh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_raad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/raad"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_estesgaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/estesgaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mater"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mater"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_aftermatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/aftermatar"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_esteshaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/esteshaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_helal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/helal"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_eftaralsayeem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/eftaralsayeem"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_beforeating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/beforeating"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_aftereating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/aftereating"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_aldayeftosahebaltaam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/aldayeftosahebaltaam"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_forsagaho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/forsagaho"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_afterendbaet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/afterendbaet"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_sayenmafatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/sayenmafatar"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_sayemsabho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/sayemsabho"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_bakooratalthmr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/bakooratalthmr"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_etas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/etas"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tokaferetas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tokaferetas"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_formotazweg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/formotazweg"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_motazwegtoself"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/motazwegtoself"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_afterahl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/afterahl"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_gadab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/gadab"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_whoseemobtla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/whoseemobtla"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_inmagles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/inmagles"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_kfaratalmjles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/kfaratalmjles"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_doaatomngalgafr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/doaatomngalgafr"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_maarooftoyou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/maarooftoyou"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_esmafromdgal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/esmafromdgal"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tomngalohebk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tomngalohebk"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tomnaradmalho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tomnaradmalho"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mnagradendalgdaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mnagradendalgdaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_khawfmnalshrk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/khawfmnalshrk"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mngalbarkallahfeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mngalbarkallahfeek"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_krahetaltyara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/krahetaltyara"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_rkoobaldaba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/rkoobaldaba"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_safar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/safar"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_entergarya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/entergarya"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_entersoog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/entersoog"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_taeesalmrkoob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/taeesalmrkoob"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mosafertomogeem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mosafertomogeem"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mogeentomosafer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mogeentomosafer"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_tkbeerinsafar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/tkbeerinsafar"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mosaferezaashr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mosaferezaashr"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_nzlfesafar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/nzlfesafar"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_rgoomnalsfr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/rgoomnalsfr"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_atahmaysrawyakrah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/atahmaysrawyakrah"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_fadlalslaaalalnaby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/fadlalslaaalalnaby"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_efshaaalsalam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/efshaaalsalam"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_rdsalamtokafer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/rdsalamtokafer"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_syahaldeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/syahaldeek"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_nebahalkelab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/nebahalkelab"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_lmnsbbtho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/lmnsbbtho"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_mdhmoslem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/mdhmoslem"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_zokymoslem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/zokymoslem"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_yolbyalmohrem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/yolbyalmohrem"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_ezaataalrokn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/ezaataalrokn"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_baenalymanwalaswd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/baenalymanwalaswd"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_wgoofinsafaawmarwa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/wgoofinsafaawmarwa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_arafa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/arafa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_masharharam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/masharharam"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_ramyaljamra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/ramyaljamra"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_amrsaar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/amrsaar"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_amrysoroh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/amrysoroh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_wagaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/wagaa"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_yoseebbayneh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/yoseebbayneh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_endalfaza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/endalfaza"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_zabh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/zabh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_rdmrdatalshyateen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/rdmrdatalshyateen"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_estgfaarwtawba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/estgfaarwtawba"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_fdlaltsbeeh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/fdlaltsbeeh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_howalnabyyosabeh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/howalnabyyosabeh"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/zkr_typesofalkhair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@layout/button_backgrnd"
+                    android:gravity="right|center"
+                    android:text="@string/typesofalkhair"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </ScrollView>
+</LinearLayout>
